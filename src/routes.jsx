@@ -10,7 +10,7 @@ import Banner from "./components/Banner/index.jsx";
 function AppRoutes() {
   return (
     
-    <BrowserRouter basename="/RodrigoVitorinoS.github.io">
+    <BrowserRouter>
       <Menu/>
       <Banner/>
       <About/>
