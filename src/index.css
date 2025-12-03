@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+ 
+:root {
+  --tech-red: #ff0000;
+  --tech-dark-red: #4a0000;
+  --bg-black: #050505;
+  --fonte-principal:"Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}

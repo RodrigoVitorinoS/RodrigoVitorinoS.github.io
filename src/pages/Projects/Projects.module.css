@@ -1,0 +1,98 @@
+.projectsSection {
+    background-color: #050505; /* Continua o preto do Banner/Sobre */
+    padding: 80px 0;
+    border-bottom: 1px solid #330000;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.destaque {
+    color: #ff0000;
+    text-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+/* --- ESTILO DO CARD (O Artefato) --- */
+.projectCard {
+    background-color: #0f0f0f !important; /* Cinza muito escuro */
+    border: 1px solid #333 !important; /* Borda discreta inicial */
+    min-height: 100%; /* Garante altura igual */
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efeito Hover: O Card "Acende" */
+.projectCard:hover {
+    border-color: #ff0000 !important; /* Borda fica vermelha */
+    transform: translateY(-10px); /* Flutua para cima */
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.15); /* Sombra vermelha sutil */
+}
+
+.cardBody {
+    padding: 30px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.cardText {
+    color: #b0b0b0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    flex-grow: 1; /* Empurra os botões para o final */
+}
+
+/* --- TAGS DE TECNOLOGIA (Pílulas) --- */
+.techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.techBadge {
+    background-color: #1a1a1a;
+    color: #ff4d4d; /* Vermelho claro */
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #330000;
+    font-family: monospace; /* Fonte de código */
+    font-weight: 600;
+}
+
+/* Botão do Card */
+.btnProject {
+    background-color: transparent !important;
+    border: 1px solid #ffffff !important;
+    color: #ffffff !important;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btnProject:hover {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important;
+    color: white !important;
+}

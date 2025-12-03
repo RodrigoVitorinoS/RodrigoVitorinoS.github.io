@@ -1,0 +1,110 @@
+/* Fundo Preto Sutilmente diferente do Banner para criar separação visual */
+.aboutSection {
+    background-color: #050505; 
+    color: #e0e0e0;
+    padding: 80px 0;
+    position: relative;
+    border-bottom: 1px solid #220000;
+}
+
+/* Tipografia */
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+.destaque {
+    color: #ff0000; 
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.4); 
+}
+
+.paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8; 
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Destaque para palavras em negrito */
+.paragrafo strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Caixa de Citação para a frase final */
+.quoteBox {
+    border-left: 4px solid #ff0000;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-style: italic;
+    color: #ffcccc; /* Vermelho bem claro */
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* --- ESTILO DA IMAGEM --- */
+
+.imageContainer {
+    position: relative;
+    display: inline-block;
+    padding: 10px; /* Espaço para a borda brilhar */
+}
+
+.profileImage {
+    width: 100%;
+    max-width: 450px; /* Limita o tamanho para não ficar gigante */
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+    filter: grayscale(20%); /* Deixa a foto levemente desaturada (estilo cinema) */
+    transition: all 0.5s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+
+/* Efeito ao passar o mouse na foto: Fica colorida e brilha */
+.imageContainer:hover .profileImage {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+
+/* Borda Decorativa (O "Circuito" atrás da foto) */
+.imageBorder {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #330000; /* Vermelho muito escuro */
+    border-radius: 8px;
+    z-index: 1; /* Fica atrás da foto */
+    transition: all 0.5s ease;
+}
+
+/* Quando passa o mouse, a borda acende */
+.imageContainer:hover .imageBorder {
+    top: 20px;
+    left: 20px;
+    border-color: #ff0000;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+/* Ajustes para Celular */
+@media (max-width: 991px) {
+    .titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .imageContainer {
+        margin-top: 40px;
+    }
+    .imageBorder {
+        display: none; /* Simplifica no celular */
+    }
+}

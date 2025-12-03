@@ -1,0 +1,28 @@
+/* 1. O Wrapper precisa ser 'relative' para segurar o degradê */
+.bannerWrapper {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    position: relative; 
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.bannerWrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    
+ 
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0) 0%, #050505 100%);
+    
+    pointer-events: none; 
+}

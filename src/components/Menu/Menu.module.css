@@ -1,0 +1,23 @@
+/* 1. O Fundo do Menu */
+.minhaNavbar {
+    background-color: #050505 !important; 
+    background: linear-gradient(to bottom, #450a0a 0%, #050505 70%) !important;    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none !important;
+}
+
+/* 2. O Logo */
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 1.5rem;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+

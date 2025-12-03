@@ -1,0 +1,82 @@
+.skillsSection {
+    background-color: #080808; /* Um tom levemente diferente para contraste */
+    padding: 80px 0;
+    border-bottom: 1px solid #220000;
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.destaque {
+    color: #ff0000;
+}
+
+/* Títulos das Categorias (Ex: Data Science, Dev...) */
+.categoriaTitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #b0b0b0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-left: 3px solid #ff0000;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+/* O Container dos Cards de Habilidade */
+.gridSkills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 50px; /* Espaço entre categorias */
+}
+
+/* O Card Individual da Habilidade */
+.skillCard {
+    background-color: #111;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    cursor: default;
+    position: relative;
+    overflow: hidden;
+    min-width: 120px;
+    text-align: center;
+}
+
+/* Efeito Hover: Brilho Vermelho */
+.skillCard:hover {
+    border-color: #ff0000;
+    background-color: #1a0505; /* Fundo levemente avermelhado */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+/* Um pequeno detalhe visual no canto do card */
+.skillCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #330000; /* Vermelho escuro inativo */
+    transition: background-color 0.3s;
+}
+
+.skillCard:hover::before {
+    background-color: #ff0000; /* Vermelho vivo ativo */
+}
