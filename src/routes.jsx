@@ -1,18 +1,17 @@
-import { BrowserRouter } from "react-router";
+import { BrowserRouter } from "react-router-dom"; 
 import Menu from "./components/Menu/index.jsx";
+import Banner from "./components/Banner/index.jsx"; // Notei que você importou Banner aqui, certifique-se que o caminho está certo
 import About from "./pages/About";
 import Projects from "./pages/Projects/index.jsx";
 import Skills from "./pages/Skills/index.jsx";
 import Contact from "./pages/Contact/index.jsx";
-import Banner from "./components/Banner/index.jsx";
-
 
 function AppRoutes() {
   return (
-    
+
     <BrowserRouter>
       <Menu/>
-      <Banner/>
+      <Banner/> 
       <About/>
       <Skills/>
       <Projects/>
