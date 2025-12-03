@@ -6,7 +6,7 @@
 
 > "Transformando dados brutos e caóticos em decisões estratégicas precisas."
 
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido como uma **Single Page Application (SPA)** moderna e responsiva. O projeto reflete minha transição de carreira da Matemática Acadêmica para a Engenharia de Inteligência Artificial.
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido como uma **Single Page Application (SPA)**. O projeto reflete minha transição de carreira da Matemática Acadêmica para a Engenharia de Inteligência Artificial.
 
 🔗 **Acesse o portfólio online:** [https://RodrigoVitorinoS.github.io](https://RodrigoVitorinoS.github.io)
 
@@ -17,35 +17,12 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 O conceito visual **"Data Alchemy"** (Alquimia de Dados) foi escolhido para representar o processo de transformar a matéria bruta (dados) em algo de valor (insights), utilizando o rigor matemático como catalisador.
 
 ### Destaques Técnicos:
-* **Arquitetura:** React + Vite para alta performance.
-* **Estilização:** CSS Modules combinados com React Bootstrap para um design responsivo e organizado.
+* **Arquitetura:** React + Vite.
+* **Estilização:** CSS Modules combinados com React Bootstrap.
 * **Identidade Visual:** Tema Dark/Cyberpunk com paleta de cores personalizada (Preto Profundo & Vermelho Neon).
 * **Navegação:** Smooth Scroll (rolagem suave) sem recarregamento de página.
 
 ---
-
-## 🛠️ Tecnologias Utilizadas
-
-O "Arsenal Alquímico" utilizado na construção deste frontend:
-
-* **Core:** [React.js](https://reactjs.org/) (Hooks, Functional Components)
-* **Build Tool:** [Vite](https://vitejs.dev/)
-* **UI Framework:** [React Bootstrap](https://react-bootstrap.github.io/)
-* **Estilos:** CSS3 Moderno (Gradients, Animations, CSS Modules)
-* **Deploy:** GitHub Pages (via `gh-pages`)
-
----
-
-## 🚀 Projetos em Destaque
-
-No portfólio, apresento soluções práticas que unem programação e matemática:
-
-1.  **Otimização de Horários Escolares:** Algoritmo genético para resolução de conflitos de alocação de recursos.
-2.  **Chatbot Inteligente:** Assistente virtual com processamento de linguagem natural (NLP).
-3.  **Credit Scoring (Alura Cash):** Pipeline completo de Machine Learning para análise de risco de crédito.
-
----
-
 
 ## 📬 Contato
 
