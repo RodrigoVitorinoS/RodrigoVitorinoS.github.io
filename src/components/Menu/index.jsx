@@ -3,6 +3,7 @@ import styles from './Menu.module.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom'; 
 
+
 function Menu() {
   return (
     <Navbar expand="lg" variant="dark" className={styles.minhaNavbar}>
